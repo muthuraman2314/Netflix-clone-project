@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lg-back-img {
+  background-image: url(../files/pic-1.jpg);
+  height: 130vh;
+  max-width: 100%;
+  background-size: cover;
+}
+.lg-logo {
+  height: 18vh;
+  margin-left: 4rem;
+}
+.lg-container {
+  display: grid;
+  place-items: center;
+}
+.lg-container-one {
+  row-gap: 5rem;
+  height: 90vh;
+  width: 28rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+}
+.lg-heading {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.lg-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 2rem;
+}
+.lg-input-boxs {
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 12px;
+  background-color: rgb(75, 73, 73);
+  padding: 10px;
+  border: none;
+  display: flex;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.lg-submits {
+  background-color: red;
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.lg-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lg-checkboxs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.lg-moreabout {
+  color: rgb(75, 73, 73);
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.lg-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.lg-sign-in {
+  color: white;
+}
+.lg-sign-in:hover {
+  height: 1rem;
+}

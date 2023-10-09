@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+  justify-content: space-between;
+  width: 100%;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav-black {
+  background-color: black;
+}
+.logos {
+  width: 130px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.avtar {
+  width: 35px;
+  object-fit: contain;
+  height: 2.9rem;
+  border-radius: 8px;
+}
+.nav-one {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

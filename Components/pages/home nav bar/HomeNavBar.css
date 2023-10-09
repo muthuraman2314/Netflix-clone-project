@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home-navBar {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  position: relative;
+  margin-left: 4rem;
+  max-width: 100%;
+}
+.logo {
+  height: 17vh;
+}
+.buttons {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 0.2fr 0.5fr;
+  margin-right: 8.5rem;
+  gap: 1rem;
+}
+.option {
+  height: 5vh;
+  width: 8rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #fffdfd;
+  border-radius: 0.5rem;
+  appearance: none;
+  text-align: center;
+}
+.option-two {
+  height: 5vh;
+  width: 6rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(240, 24, 24);
+  color: #fffdfd;
+}
+.icon {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  visibility: visible;
+}

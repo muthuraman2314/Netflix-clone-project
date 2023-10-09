@@ -1,0 +1,65 @@
+.qands-lay-container {
+  margin-bottom: 8px;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.qands-lay-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.qands-lay {
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 1rem;
+}
+.qands-lay-icon {
+  font-size: 40px;
+  font-weight: 400;
+}
+.qands-lay-container-two {
+  background-color: rgb(41, 40, 40);
+  padding: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.qands-lay-para:hover {
+  background-color: rgb(41, 40, 40);
+}
+.qands-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 3.8rem;
+  border-top: 5px solid rgb(82, 81, 81);
+}
+.qands-heading {
+  margin-top: 3.8rem;
+  margin-bottom: 1.6rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.qands-para {
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+.qands-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.qands-input-box {
+  height: 3.5rem;
+  width: 26rem;
+  border-radius: 7px;
+  background-color: rgba(49, 49, 49, 0.6);
+  padding: 8px;
+  border: none;
+  display: flex;
+}
